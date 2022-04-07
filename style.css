@@ -28,6 +28,7 @@ img {
 html {
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+    font-size: 18px;
 }
 
 *,
@@ -116,4 +117,32 @@ a {
     background-image: url(images/image1.jpg);
     background-size: cover;
     background-position: 25% 75%;
+}
+
+.main {
+    background-color: var(--hero-color);
+    text-align: center;
+    padding: 25px 0;
+}
+
+.main_title {
+    margin-bottom: 25px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+}
+
+.card {
+    flex-basis: 200px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid var(--button-color);
+    border-radius: 15px;
 }
