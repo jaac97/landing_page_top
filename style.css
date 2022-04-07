@@ -10,7 +10,7 @@
     --information-color: #1f2937;
     /* testimony */
     --testimony: #e5e7eb;
-    --testimony-text: 36px italic;
+    --testimony-text: italic 300 36px Roboto, sans-serif;
     --testimony-color: #1f2937
 }
 
@@ -67,15 +67,13 @@ a {
     font-weight: 900;
 }
 
-.nav {}
-
 .nav_link {
     color: var(--hero-seconday-color);
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav_link:last-of-type {
-    margin-left: 0;
+    margin-right: 0;
 }
 
 .header_content {
@@ -100,7 +98,7 @@ a {
 }
 
 .btn {
-    padding: 8px 20px;
+    padding: 10px 30px;
     color: var(--hero-color);
     border: none;
     border-radius: 5px;
@@ -109,6 +107,10 @@ a {
 
 .blue {
     background-color: var(--button-color);
+}
+
+.border-white {
+    border: 1px solid var(--hero-color);
 }
 
 .header_image {
@@ -123,6 +125,7 @@ a {
     background-color: var(--hero-color);
     text-align: center;
     padding: 25px 0;
+    height: 450px;
 }
 
 .main_title {
@@ -145,4 +148,44 @@ a {
     object-fit: cover;
     border: 5px solid var(--button-color);
     border-radius: 15px;
+}
+
+
+/* testimony */
+
+.testimony {
+    background-color: var(--testimony);
+    padding: 100px 205px;
+    font: var(--testimony-text);
+}
+
+.testimony p {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+/* register */
+
+.register {
+    background-color: var(--hero-color);
+    padding: 50px;
+    color: var(--hero-color);
+}
+
+.banner {
+    background-color: var(--button-color);
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--dark-brackground);
+    color: var(--hero-color);
+    padding: 25px;
 }
