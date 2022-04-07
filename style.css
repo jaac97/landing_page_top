@@ -1,0 +1,15 @@
+:root {
+    --dark-brackground: #1f2937;
+    --hero-text: 48px 'Roboto', sans-serif;
+    --hero-color: #f9faf8;
+    --hero-secondary-text: 18px;
+    --hero-seconday-color: #f9faf8;
+    --button-color: #3882f6;
+    /* main */
+    --information-header: 36px 900;
+    --information-color: #1f2937;
+    /* testimony */
+    --testimony: #e5e7eb;
+    --testimony-text: 36px italic;
+    --testimony-color: #1f2937
+}
